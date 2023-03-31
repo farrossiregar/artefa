@@ -1,0 +1,211 @@
+.noMargin{
+	margin: 0;
+}
+.noPadding{
+	padding: 0;
+}
+.borderBtmPanel {
+	border-style: double;
+	margin-bottom: 10px;
+}
+.flex-center{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.circleDot i{
+  font-size: 10px;
+}
+.flex-between{
+	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+}
+.panelHeading {
+	background-color: #c61515!important;
+	color: white!important;
+}
+.panelHeading a:hover{
+	color: black;
+}
+.titlePanelHeading h3{
+	margin: 0;
+}
+.searchPanelHeading{
+	width: 30%;
+}
+.panel-heading a:after {
+	font-family: "FontAwesome";
+    content:"\f068";
+    float: right;
+    color: white;
+}
+.panel-heading a.collapsed:after {
+    content:"\f067";
+}
+.paddingFormGroup {
+	padding-bottom: 30px;
+}
+.labelForm {
+    padding-top: 8px;
+    text-align: right;
+}
+.rectangSkill{
+	border: solid 1px #0c4b85;
+	color: #0c4b85;
+    border-radius: 31px;
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 13px;
+}
+.rectangSkillTitle {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.rectangSkillTitle h3 {
+	margin: 0;
+}
+/*Table*/
+.tableThead {
+	background: #f1f5f9;
+    color: #56688A;
+    font-size: 14px;
+}
+.fixed_header{
+    width: 100%;
+}
+
+.fixed_header tbody{
+  display:block;
+  width: 100%;
+  overflow: auto;
+  height: 300px;
+}
+
+.fixed_header thead tr {
+   display: block;
+}
+
+.img-preview,.img-preview img{
+  width: 100%;
+  margin: 0 auto;
+  position:relative;
+  margin-top: 8px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.not-active {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;
+}
+
+
+/*.fixed_header th, .fixed_header td {
+  padding: 5px;
+  text-align: left;
+  width: 200px;
+}*/
+.fixed_headers{
+    width: 1032px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.fixed_headers tbody{
+  overflow: auto;
+  height: 100px;
+}
+
+.fixed_headers thead {
+  background: black;
+  color:#fff;
+}
+
+.fixed_headers th, .fixed_headers td {
+  padding: 5px;
+  text-align: left;
+  width: 200px;
+}
+/*End Table*/
+
+/*TOOLTIP*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/*ENDTOOLTIP*/
+
+/*.headcol {
+  position:absolute;
+  width:2em;
+  left:0;
+}
+*/
+
+.zui-table {
+    border: none;
+    border-right: solid 1px #DDEFEF;
+    border-collapse: separate;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+}
+.zui-table thead th {
+    background-color: #DDEFEF;
+    border: none;
+    color: #336B6B;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+    white-space: nowrap;
+}
+.zui-table tbody td {
+    border-bottom: solid 1px #DDEFEF;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+    white-space: nowrap;
+}
+.zui-wrapper {
+    position: relative;
+}
+.zui-scroller {
+    margin-left: 215px;
+    overflow-x: scroll;
+    overflow-y: visible;
+    padding-bottom: 5px;
+    width: 837px;
+}
+.zui-table .zui-sticky-col {
+    border-left: solid 1px #DDEFEF;
+    border-right: solid 1px #DDEFEF;
+    left: 0;
+    position: absolute;
+    top: auto;
+    width: 210px;
+}

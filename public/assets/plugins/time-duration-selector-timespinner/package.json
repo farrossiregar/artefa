@@ -1,0 +1,19 @@
+{
+  "name": "jquery-ui-timespinner",
+  "version": "0.1.0",
+  "main": "dist/jquery-ui-timespinner.min.js",
+  "author": "Yoshikazu Kaneta <kaneta@sitebridge.co.jp>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kanety/jquery-ui-timespinner.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "uglify": "uglifyjs dist/jquery-ui-timespinner.js -c -o dist/jquery-ui-timespinner.min.js"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jquery-ui-dist": "^1.12.1",
+    "moment": "^2.22.2"
+  }
+}

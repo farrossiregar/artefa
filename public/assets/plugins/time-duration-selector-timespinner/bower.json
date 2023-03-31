@@ -1,0 +1,5 @@
+{
+  "name": "jquery-ui-timespinner",
+  "version": "0.1.0",
+  "main": "dist/jquery-ui-timespinner.min.js"
+}
